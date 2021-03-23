@@ -1,0 +1,114 @@
+:root {
+  --background-color: rgb(68, 68, 68);
+  --font-color: rgba(238, 238, 238, 1.0);
+}
+
+header,
+footer {
+  background-color: var(--background-color);
+}
+
+.navbar {
+  height: 6rem;
+  width: 63%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.logo {
+  float: left;
+  position: relative;
+}
+
+.navbar ul {
+  margin-top: 1.8rem;
+}
+
+.navbar ul li {
+  display: inline;
+  padding: 2rem;
+}
+
+.navbar ul li a {
+  color: var(--font-color);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.float-fix {
+  clear: both;
+}
+
+.control-width {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 80%;
+}
+
+.cards {
+  margin-bottom: 1rem;
+}
+
+.cards img {
+  margin-left: 1rem;
+  margin-right: .6rem;
+}
+
+.article-section {
+  width: 82%;
+  margin: auto;
+}
+
+.article-img {
+  float: left;
+  position: relative;
+  padding: 1rem;
+}
+
+.article-text {
+  padding: 1rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.article-text h2 {
+  font-size: 2.1rem;
+}
+
+.article-text p {
+  font-size: 1.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  overflow: auto;
+  height: 19rem;
+  font-style: italic;
+}
+
+.btn {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  width: 15rem;
+  border: 0;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  border-radius: 18px;
+}
+
+footer {
+  height: 6rem;
+}
